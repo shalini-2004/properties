@@ -1,0 +1,244 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    padding:1.5rem;
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 119, 98);
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+    z-index: 1;
+    box-shadow:2px 2px 5px 5px  rgb(44, 87, 75);
+}
+.list{
+    display: flex;
+    gap: 20%;
+    /* text-decoration: none; */
+    list-style-type: none;   
+}
+a{
+    text-decoration: none;
+}
+button{
+    height:2.5rem;
+    width:5rem;
+    margin-left:1rem;
+    border-radius:16%;
+    background-color:rgb(218, 185, 158);
+    border: 1px solid black;
+    font-size: large;
+}
+.link{
+    font-size:larger;
+}
+h2:hover{
+    color: rgb(172, 43, 43);
+}
+.link:hover{
+    color: rgb(235, 215, 35);
+}
+.button:hover{
+    background-color: rgb(37, 37, 231);
+    color: white;
+}
+.main{
+    padding-top:4rem;
+}
+.hedding{
+    background-color: rgb(54, 163, 163);
+    text-align: center;
+    padding-top:6.5rem;
+    word-spacing: 0.5rem;
+}
+.black{
+    color: black;
+}
+.yellow{
+    color: rgb(170, 161, 32);
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    padding:6rem;
+    padding-top:1.5rem;
+    background-color: rgb(54, 163, 163);
+}
+.box{
+    height:22rem;
+    width: 22rem;
+    padding: 1.5rem;
+    border: 3px solid red;  
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 30px;
+}
+.hedding-2{
+    text-align: center;
+    padding-top: 30px;
+    word-spacing: 0.5rem;
+
+}
+.boxs{
+    height:22rem;
+    width: 22rem;
+    padding: 1.5rem; 
+    border: 3px solid rgb(128, 27, 128);   
+}
+.items{
+    /*height:5.5rem; */
+    width:5rem;
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 8%;
+    padding: 2.5rem 0.5rem 2.5rem 1.5rem;
+    /* text-align: center; */
+
+}
+.item{
+    margin-left: 6.5rem;
+}
+.d1b2-2{
+    float: left;
+}
+.d1b2-1,.d1b2-3{
+    margin-left:8rem;
+}
+.d1b3-2{
+    float: right;
+}
+.d1b3-1,.d1b3-3{
+    margin-left: 6.5rem;
+}
+.d2b2-2{
+    position: relative;
+    top:2rem;
+    left:3.5rem;
+}
+.d2b3-2{
+    position: absolute;
+    right:19.5rem;
+}
+.lorem{
+    height: 22rem;
+    width: 22rem;
+    border: 2px solid purple;
+    padding: 5px;
+    overflow-y: scroll;
+}
+.lorem{
+    margin-left: 38%;
+}
+.d3b{
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+.c3{
+    /*height: 5rem; */
+    width: 4rem;
+    padding: 2.5rem 1.7rem 2.5rem 1.7rem;
+    margin:0.5rem;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.item1{
+    border: 2px solid rgb(194, 152, 16);
+    background-color: rgb(35, 63, 50);
+    color: white;
+}
+.item2{
+    border: 2px solid rgb(133, 48, 22);
+    background-color:rgb(53, 80, 105);
+    color: white;
+}
+
+.container-3{
+    margin-top: 2rem;
+    padding: 0rem 5.6rem 1rem 5.5rem;
+    background-color: rgb(54, 163, 163);
+}
+.hedding-3{
+    background-color: rgb(54, 163, 163);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    word-spacing:0.5rem;
+}
+.c3d1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c3d2{
+    border-top: 3px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.c3div{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+.c3d3{
+    display: flex;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+.d3i3{
+    flex-grow: 1;
+    border-radius:5%;
+}
+.c3d4{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.c3d5{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands{
+    font-size:xx-large;
+}
+.last-div{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: blueviolet;
+    height:5.5rem;
+}
+.fa-solid{
+    font-size: x-large;
+}
+.fa-brands{
+    color: rgb(221, 144, 0);
+}
+.fa-brands:hover{
+    color:rgba(40, 40, 189, 0.781);
+}
+.arrow{
+    right: 0;
+    top:40rem;
+    position: fixed;
+    height:2.5rem;
+    width: 3rem;
+    background-color: brown;
+    padding:1rem 0rem 0rem 1rem;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%
+}
+
+
